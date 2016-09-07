@@ -68,24 +68,23 @@ p {
 }
 
 #cursor {
-	width: 40px;
-	height: 50px;
 	background: #0f0;
+	margin-left: 5px;
 }
 
 .title .jobtitle {
 	font-size: 32px;
-	color: #4e4;
+	color: #5e5;
 }
 
-.bio {
+.light-dark {
 	background: linear-gradient(to top, #000, #333);
 	margin: -8px;
 	margin-top: -30px;
 	text-align: center;
 }
 
-.bio p {
+#bio {
 	text-align: center;
 	padding: 50px 25% 50px 25%;
 	width: 50%;
