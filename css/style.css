@@ -9,8 +9,8 @@
 }
 
 body {
-	background-color: #eee;
-	/*background: linear-gradient(to left, #363, #111);*/
+	background-color: #000;
+	background: linear-gradient(to left, #363, #111);
 }
 
 h {
@@ -25,14 +25,15 @@ p {
 }
 
 .banner {
-	background-color: #111;
-	/*background: linear-gradient(to left, #363, #111);*/
+	vertical-align: top;
+	/*background-color: #363;*/
+	background: linear-gradient(to left, #363, #111);
 	height:auto;
-	margin: -8px -8px 0px -8px;
+	margin: -8px;
 }
 
 .title {
-	padding: 50px 0px 20px 100px;
+	padding: 50px 0 20px 40px;
 }
 
 .title h {
@@ -54,11 +55,6 @@ p {
 	text-decoration: none;
 }
 
-#name {
-	font-size: 70px;
-	padding: 8px 16px 8px 16px;
-}
-
 .title .logo .underline {
 	border-bottom: 2px solid #141;
 }
@@ -72,57 +68,32 @@ p {
 	color: #fff;
 }
 
-.title .jobtitle {
-	font-size: 32px;
-	color: #5e5;
-}
-
-/* ID's */'
-
 #cursor {
 	background: #0f0;
 	margin-left: 5px;
 }
 
+.title .jobtitle {
+	font-size: 32px;
+	color: #5e5;
+}
+
+.light-dark {
+	background: linear-gradient(to top, #000, #333);
+	margin: -8px;
+	margin-top: -30px;
+}
+
 #bio {
 	text-align: left;
-	padding: 10px 30% 50px 30%;
-	width: 40%;
+	padding: 50px 25% 50px 25%;
+	width: 50%;
 	font-size: 30px;
-	color: #000;
-}
-
-#projects {
-	height: 600px;
-}
-
-/* Color sections */
-
-.dark {
-	background-color: #111;
-	margin: 0px -8px 0px -8px;
 }
 
 .darkgreen {
-	background-color: #121;
-	margin: 0px -8px 0px -8px;
-}
-
-.light {
-	background-color: #ccc;
-	margin: 0px -8px 0px -8px;
-}
-
-/* Gradient dividers */
-
-.dark-light-div {
-	background: linear-gradient(to bottom, #111, #ccc);
-	height: 15px;
-	margin: 0px -8px 0px -8px;
-}
-
-.light-dark-div {
-	background: linear-gradient(to top, #111, #ccc);
-	height: 15px;
-	margin: 0px -8px 0px -8px;
+	margin: -8px;
+	margin-top: -30px;
+	height: 300px;
+	background: linear-gradient(to right, #000, #121, #131, #121, #000);
 }
