@@ -24,6 +24,14 @@ h {
 	font-size: 8;
 }
 
+h1 {
+	font-family: TechnoviaCaps;
+	font-size: 50px;
+	margin: 0px;
+	text-align: center;
+	color: #fff;
+}
+
 h2 {
 	font-family: Abel;
 }
@@ -78,8 +86,9 @@ p2 {
 	color: #ddd;
 }
 
-ul {
-	margin: 0px;
+.section-title {
+	padding: 0px;
+	padding-top: 150px;
 }
 
 .project {
@@ -178,7 +187,7 @@ ul {
 }
 
 #projects {
-	padding: 200px 0px 200px 0px;
+	padding: 100px 0px 200px 0px;
 	height: 400px;
 	display: flex;
 	justify-content: center;
