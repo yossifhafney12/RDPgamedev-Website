@@ -8,6 +8,11 @@
 	src: url(../fonts/spireq_l.ttf);
 }
 
+@font-face {
+	font-family: Abel;
+	src: url(../fonts/Abel-Regular.ttf);
+}
+
 body {
 	margin: 0px;
 	background-color: #eee;
@@ -17,6 +22,10 @@ body {
 h {
 	color: #111;
 	font-size: 8;
+}
+
+h2 {
+	font-family: Abel;
 }
 
 p {
@@ -104,17 +113,13 @@ ul {
 	padding: 9px;
 	margin: 0px;
 	font-weight: normal;
-	font-size: 23px;
+	font-size: 30px;
 	text-decoration: none;
-	font-family: TechnoviaCaps;
 	text-transform: uppercase;
 }
 
 .project .text-back {
 	position: relative;
-	/*
-	top: -400px;
-	*/
 	top:  -75%;
 	left: -130px;
 	color: #fff;
