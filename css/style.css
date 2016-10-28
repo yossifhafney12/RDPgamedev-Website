@@ -42,12 +42,6 @@ p {
     word-wrap: break-word;
 }
 
-p2 {
-	font-family: SpirequalLight;
-	word-wrap: break-word;
-	font0size: 40px;
-}
-
 .banner {
 	background-color: #111;
 	/*background: linear-gradient(to left, #363, #111);*/
@@ -140,8 +134,10 @@ p2 {
 	transform: translate(0, -50%)
 }
 
-.project .text-back p2 {
+.project .text-back p {
 	font-size: 30px;
+	word-wrap: break-word;
+	color: #fff;
 }
 
 .project:hover {
