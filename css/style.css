@@ -88,6 +88,7 @@ p {
 .project {
 	height: 210px;
 	width: 300px;
+    float: left;
 	background-color: #111;
 	display: inline-block;
 	margin: 10px;
@@ -101,8 +102,8 @@ p {
 	opacity: 1;
 }
 
-.project img {
-	width: inherit;
+.project a img {
+	width: 100%;
 	margin: 0px;
 	margin-bottom: -4px;
 	transition: opacity 0.7s;
@@ -134,7 +135,7 @@ p {
 	transform: translate(0, -50%)
 }
 
-.project .text-back p {
+.project .text-back {
 	font-size: 30px;
 	word-wrap: break-word;
 	color: #fff;
