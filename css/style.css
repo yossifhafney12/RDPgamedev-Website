@@ -42,6 +42,31 @@ p {
     word-wrap: break-word;
 }
 
+.menu-bar {
+    width: 100%;
+    position: fixed;
+    background: #222;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item a {
+    float: left;
+    transition: background 0.4s;
+}
+
+.menu-item a:hover {
+    background: #777;
+}
+
+.menu-item a {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    font-family: TechnoviaCaps;
+    padding: 20px;
+}
+
 .banner {
 	background-color: #111;
 	/*background: linear-gradient(to left, #363, #111);*/
