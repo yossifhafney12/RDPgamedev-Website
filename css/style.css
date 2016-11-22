@@ -15,8 +15,7 @@
 
 body {
 	margin: 0px;
-	background-color: #eee;
-	/*background: linear-gradient(to left, #363, #111);*/
+	background-color: #111;
 }
 
 h1 {
@@ -45,7 +44,9 @@ p {
 .menu-bar {
     width: 100%;
     position: fixed;
+    z-index: 9;
     background: #222;
+	display: -webkit-flex;
     display: flex;
     justify-content: center;
 }
@@ -68,13 +69,15 @@ p {
 }
 
 .banner {
-	background-color: #111;
-	/*background: linear-gradient(to left, #363, #111);*/
-	height:250px;
+	background-color: rgba(16, 16, 16, 0.4);
+    position: absolute;
+    top: 120px;
+	left: 10%;
 }
 
 .title {
-	padding: 50px 0px 20px 200px;
+	padding: 0px 10px 20px 10px;
+	margin-top: -10px;
 }
 
 .title h1 {
@@ -183,23 +186,57 @@ p {
 	left: -15px;
 }
 
-.project:hover img{
+.project:hover img {
 	opacity: 0.3;
 }
 
 /* ID's */
 
-#banner-spacer{
-	height: 100px;
+#banner-spacer {
+	height: 0px;
+}
+
+#top {
+    height: auto;
+    margin: 0px 0 100px 0;
+    width: 100%;
+	display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+}
+
+#current-project {
+	margin-top: 120px;
+}
+
+#profile-img {
+	margin-left: 15%;
+	width: 50%;
+	/*outline: 15px rgba(0, 0, 0, 0.2) solid;*/
+	box-shadow: 10px 10px 5px #222;
 }
 
 #bio {
-	text-align: justify;
-	text-justify: interword;
-	padding: 10px 30% 10px 30%;
-	width: 40%;
+    float: right;
+	position: absolute;
+	right: 10%;
+	top: 140px;
+}
+
+#bio p {
+	background-color: rgba(192, 192, 192, 1);
+    text-align: justify;
+	/*text-justify: interword;*/
+	width: 300px;
 	font-size: 30px;
 	color: #000;
+	padding: 5px;
+	opacity: 0.2;
+	transition: opacity 0.6s;
+}
+
+#bio p:hover {
+	opacity: 1;
 }
 
 #cursor {
@@ -215,6 +252,7 @@ p {
 #projects {
 	padding: 100px 0px 200px 0px;
 	height: 400px;
+	display: -webkit-flex;
 	display: flex;
 	justify-content: center;
 	align-items: center;
