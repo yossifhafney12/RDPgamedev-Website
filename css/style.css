@@ -198,7 +198,7 @@ p {
 
 #top {
     height: auto;
-    margin: 0px 0 100px 0;
+    margin: 0px 0 50px 0;
     width: 100%;
 	display: -webkit-flex;
     display: flex;
@@ -207,6 +207,14 @@ p {
 
 #current-project {
 	margin-top: 120px;
+	height: 780px;
+	max-width: 100%;
+	overflow: hidden;
+}
+
+#current-project-picture {
+	max-width: 100%;
+	margin: -150px, auto;
 }
 
 #profile-img {
@@ -225,7 +233,7 @@ p {
 
 #bio p {
 	background-color: rgba(192, 192, 192, 1);
-    text-align: justify;
+    text-align: center;
 	/*text-justify: interword;*/
 	width: 300px;
 	font-size: 30px;
